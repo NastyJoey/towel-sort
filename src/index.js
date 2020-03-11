@@ -5,5 +5,5 @@ module.exports = function towelSort(matrix = []) {
         matrix[i] = matrix[i].sort((a, b) => a - b).reverse();
     }
 
-    return matrix.flat();
+    return matrix.flat(2);
 };
